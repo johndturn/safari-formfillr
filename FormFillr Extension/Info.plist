@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>FormFiller Extension</string>
+	<string>FormFillr Extension</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -59,6 +59,6 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2018 John Turner. All rights reserved.</string>
 	<key>NSHumanReadableDescription</key>
-	<string>Fill online forms fast with configurable dummy data.</string>
+	<string>This is a Safari Extension. You should tell us what your extension does here.</string>
 </dict>
 </plist>

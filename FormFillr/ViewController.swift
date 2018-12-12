@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  FormFiller
+//  FormFillr
 //
-//  Created by John Turner on 12/10/18.
+//  Created by John Turner on 12/12/18.
 //  Copyright © 2018 John Turner. All rights reserved.
 //
 
@@ -15,11 +15,11 @@ class ViewController: NSViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.appNameLabel.stringValue = "FormFiller";
+        self.appNameLabel.stringValue = "FormFillr";
     }
     
     @IBAction func openSafariExtensionPreferences(_ sender: AnyObject?) {
-        SFSafariApplication.showPreferencesForExtension(withIdentifier: "com.johnturnertech.FormFiller-Extension") { error in
+        SFSafariApplication.showPreferencesForExtension(withIdentifier: "com.johnturnertech.FormFillr-Extension") { error in
             if let _ = error {
                 // Insert code to inform the user that something went wrong.
 

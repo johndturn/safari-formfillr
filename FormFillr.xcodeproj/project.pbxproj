@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4129AF0521C17C2A0037B325 /* FormFillr.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = 4129AF0421C17C2A0037B325 /* FormFillr.entitlements */; };
+		4129AF0721C17C2A0037B325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129AF0621C17C2A0037B325 /* AppDelegate.swift */; };
+		4129AF0A21C17C2A0037B325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4129AF0821C17C2A0037B325 /* Main.storyboard */; };
+		4129AF0C21C17C2A0037B325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129AF0B21C17C2A0037B325 /* ViewController.swift */; };
+		4129AF0E21C17C2C0037B325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4129AF0D21C17C2C0037B325 /* Assets.xcassets */; };
+		4129AF1921C17C2C0037B325 /* FormFillrTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129AF1821C17C2C0037B325 /* FormFillrTests.swift */; };
+		4129AF2021C17C2C0037B325 /* FormFillr Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4129AF1F21C17C2C0037B325 /* FormFillr Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4129AF2521C17C2C0037B325 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4129AF2421C17C2C0037B325 /* Cocoa.framework */; };
+		4129AF2821C17C2C0037B325 /* SafariExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129AF2721C17C2C0037B325 /* SafariExtensionHandler.swift */; };
+		4129AF2A21C17C2C0037B325 /* SafariExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4129AF2921C17C2C0037B325 /* SafariExtensionViewController.swift */; };
+		4129AF2D21C17C2C0037B325 /* SafariExtensionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4129AF2B21C17C2C0037B325 /* SafariExtensionViewController.xib */; };
+		4129AF3021C17C2C0037B325 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 4129AF2F21C17C2C0037B325 /* script.js */; };
+		4129AF3221C17C2C0037B325 /* ToolbarItemIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 4129AF3121C17C2C0037B325 /* ToolbarItemIcon.pdf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4129AF1521C17C2C0037B325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4129AEF921C17C2A0037B325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4129AF0021C17C2A0037B325;
+			remoteInfo = FormFillr;
+		};
+		4129AF2121C17C2C0037B325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4129AEF921C17C2A0037B325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4129AF1E21C17C2C0037B325;
+			remoteInfo = "FormFillr Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4129AF3921C17C2C0037B325 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4129AF2021C17C2C0037B325 /* FormFillr Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4129AF0121C17C2A0037B325 /* FormFillr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormFillr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4129AF0421C17C2A0037B325 /* FormFillr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FormFillr.entitlements; sourceTree = "<group>"; };
+		4129AF0621C17C2A0037B325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4129AF0921C17C2A0037B325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4129AF0B21C17C2A0037B325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4129AF0D21C17C2C0037B325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4129AF0F21C17C2C0037B325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4129AF1421C17C2C0037B325 /* FormFillrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FormFillrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4129AF1821C17C2C0037B325 /* FormFillrTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormFillrTests.swift; sourceTree = "<group>"; };
+		4129AF1A21C17C2C0037B325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4129AF1F21C17C2C0037B325 /* FormFillr Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "FormFillr Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4129AF2421C17C2C0037B325 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4129AF2721C17C2C0037B325 /* SafariExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionHandler.swift; sourceTree = "<group>"; };
+		4129AF2921C17C2C0037B325 /* SafariExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariExtensionViewController.swift; sourceTree = "<group>"; };
+		4129AF2C21C17C2C0037B325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SafariExtensionViewController.xib; sourceTree = "<group>"; };
+		4129AF2E21C17C2C0037B325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4129AF2F21C17C2C0037B325 /* script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
+		4129AF3121C17C2C0037B325 /* ToolbarItemIcon.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ToolbarItemIcon.pdf; sourceTree = "<group>"; };
+		4129AF3321C17C2C0037B325 /* FormFillr_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FormFillr_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4129AEFE21C17C2A0037B325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129AF1121C17C2C0037B325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129AF1C21C17C2C0037B325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129AF2521C17C2C0037B325 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4129AEF821C17C2A0037B325 = {
+			isa = PBXGroup;
+			children = (
+				4129AF0321C17C2A0037B325 /* FormFillr */,
+				4129AF1721C17C2C0037B325 /* FormFillrTests */,
+				4129AF2621C17C2C0037B325 /* FormFillr Extension */,
+				4129AF2321C17C2C0037B325 /* Frameworks */,
+				4129AF0221C17C2A0037B325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4129AF0221C17C2A0037B325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4129AF0121C17C2A0037B325 /* FormFillr.app */,
+				4129AF1421C17C2C0037B325 /* FormFillrTests.xctest */,
+				4129AF1F21C17C2C0037B325 /* FormFillr Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4129AF0321C17C2A0037B325 /* FormFillr */ = {
+			isa = PBXGroup;
+			children = (
+				4129AF0421C17C2A0037B325 /* FormFillr.entitlements */,
+				4129AF0621C17C2A0037B325 /* AppDelegate.swift */,
+				4129AF0821C17C2A0037B325 /* Main.storyboard */,
+				4129AF0B21C17C2A0037B325 /* ViewController.swift */,
+				4129AF0D21C17C2C0037B325 /* Assets.xcassets */,
+				4129AF0F21C17C2C0037B325 /* Info.plist */,
+			);
+			path = FormFillr;
+			sourceTree = "<group>";
+		};
+		4129AF1721C17C2C0037B325 /* FormFillrTests */ = {
+			isa = PBXGroup;
+			children = (
+				4129AF1821C17C2C0037B325 /* FormFillrTests.swift */,
+				4129AF1A21C17C2C0037B325 /* Info.plist */,
+			);
+			path = FormFillrTests;
+			sourceTree = "<group>";
+		};
+		4129AF2321C17C2C0037B325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4129AF2421C17C2C0037B325 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4129AF2621C17C2C0037B325 /* FormFillr Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4129AF2721C17C2C0037B325 /* SafariExtensionHandler.swift */,
+				4129AF2921C17C2C0037B325 /* SafariExtensionViewController.swift */,
+				4129AF2B21C17C2C0037B325 /* SafariExtensionViewController.xib */,
+				4129AF2E21C17C2C0037B325 /* Info.plist */,
+				4129AF2F21C17C2C0037B325 /* script.js */,
+				4129AF3121C17C2C0037B325 /* ToolbarItemIcon.pdf */,
+				4129AF3321C17C2C0037B325 /* FormFillr_Extension.entitlements */,
+			);
+			path = "FormFillr Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4129AF0021C17C2A0037B325 /* FormFillr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4129AF3A21C17C2C0037B325 /* Build configuration list for PBXNativeTarget "FormFillr" */;
+			buildPhases = (
+				4129AEFD21C17C2A0037B325 /* Sources */,
+				4129AEFE21C17C2A0037B325 /* Frameworks */,
+				4129AEFF21C17C2A0037B325 /* Resources */,
+				4129AF3921C17C2C0037B325 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4129AF2221C17C2C0037B325 /* PBXTargetDependency */,
+			);
+			name = FormFillr;
+			productName = FormFillr;
+			productReference = 4129AF0121C17C2A0037B325 /* FormFillr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4129AF1321C17C2C0037B325 /* FormFillrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4129AF3D21C17C2C0037B325 /* Build configuration list for PBXNativeTarget "FormFillrTests" */;
+			buildPhases = (
+				4129AF1021C17C2C0037B325 /* Sources */,
+				4129AF1121C17C2C0037B325 /* Frameworks */,
+				4129AF1221C17C2C0037B325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4129AF1621C17C2C0037B325 /* PBXTargetDependency */,
+			);
+			name = FormFillrTests;
+			productName = FormFillrTests;
+			productReference = 4129AF1421C17C2C0037B325 /* FormFillrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4129AF1E21C17C2C0037B325 /* FormFillr Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4129AF3621C17C2C0037B325 /* Build configuration list for PBXNativeTarget "FormFillr Extension" */;
+			buildPhases = (
+				4129AF1B21C17C2C0037B325 /* Sources */,
+				4129AF1C21C17C2C0037B325 /* Frameworks */,
+				4129AF1D21C17C2C0037B325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FormFillr Extension";
+			productName = "FormFillr Extension";
+			productReference = 4129AF1F21C17C2C0037B325 /* FormFillr Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4129AEF921C17C2A0037B325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "John Turner";
+				TargetAttributes = {
+					4129AF0021C17C2A0037B325 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					4129AF1321C17C2C0037B325 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 4129AF0021C17C2A0037B325;
+					};
+					4129AF1E21C17C2C0037B325 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 4129AEFC21C17C2A0037B325 /* Build configuration list for PBXProject "FormFillr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4129AEF821C17C2A0037B325;
+			productRefGroup = 4129AF0221C17C2A0037B325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4129AF0021C17C2A0037B325 /* FormFillr */,
+				4129AF1321C17C2C0037B325 /* FormFillrTests */,
+				4129AF1E21C17C2C0037B325 /* FormFillr Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4129AEFF21C17C2A0037B325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129AF0521C17C2A0037B325 /* FormFillr.entitlements in Resources */,
+				4129AF0E21C17C2C0037B325 /* Assets.xcassets in Resources */,
+				4129AF0A21C17C2A0037B325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129AF1221C17C2C0037B325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129AF1D21C17C2C0037B325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129AF3221C17C2C0037B325 /* ToolbarItemIcon.pdf in Resources */,
+				4129AF2D21C17C2C0037B325 /* SafariExtensionViewController.xib in Resources */,
+				4129AF3021C17C2C0037B325 /* script.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4129AEFD21C17C2A0037B325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129AF0C21C17C2A0037B325 /* ViewController.swift in Sources */,
+				4129AF0721C17C2A0037B325 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129AF1021C17C2C0037B325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129AF1921C17C2C0037B325 /* FormFillrTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4129AF1B21C17C2C0037B325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4129AF2A21C17C2C0037B325 /* SafariExtensionViewController.swift in Sources */,
+				4129AF2821C17C2C0037B325 /* SafariExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4129AF1621C17C2C0037B325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4129AF0021C17C2A0037B325 /* FormFillr */;
+			targetProxy = 4129AF1521C17C2C0037B325 /* PBXContainerItemProxy */;
+		};
+		4129AF2221C17C2C0037B325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4129AF1E21C17C2C0037B325 /* FormFillr Extension */;
+			targetProxy = 4129AF2121C17C2C0037B325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4129AF0821C17C2A0037B325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4129AF0921C17C2A0037B325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4129AF2B21C17C2C0037B325 /* SafariExtensionViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4129AF2C21C17C2C0037B325 /* Base */,
+			);
+			name = SafariExtensionViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4129AF3421C17C2C0037B325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4129AF3521C17C2C0037B325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		4129AF3721C17C2C0037B325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FormFillr Extension/FormFillr_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AZG6YYET8;
+				INFOPLIST_FILE = "FormFillr Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnturnertech.FormFillr-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4129AF3821C17C2C0037B325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "FormFillr Extension/FormFillr_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6AZG6YYET8;
+				INFOPLIST_FILE = "FormFillr Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.johnturnertech.FormFillr-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		4129AF3B21C17C2C0037B325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FormFillr/FormFillr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6AZG6YYET8;
+				INFOPLIST_FILE = FormFillr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnturnertech.FormFillr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		4129AF3C21C17C2C0037B325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FormFillr/FormFillr.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6AZG6YYET8;
+				INFOPLIST_FILE = FormFillr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnturnertech.FormFillr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		4129AF3E21C17C2C0037B325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6AZG6YYET8;
+				INFOPLIST_FILE = FormFillrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnturnertech.FormFillrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormFillr.app/Contents/MacOS/FormFillr";
+			};
+			name = Debug;
+		};
+		4129AF3F21C17C2C0037B325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 6AZG6YYET8;
+				INFOPLIST_FILE = FormFillrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.johnturnertech.FormFillrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FormFillr.app/Contents/MacOS/FormFillr";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4129AEFC21C17C2A0037B325 /* Build configuration list for PBXProject "FormFillr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129AF3421C17C2C0037B325 /* Debug */,
+				4129AF3521C17C2C0037B325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4129AF3621C17C2C0037B325 /* Build configuration list for PBXNativeTarget "FormFillr Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129AF3721C17C2C0037B325 /* Debug */,
+				4129AF3821C17C2C0037B325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4129AF3A21C17C2C0037B325 /* Build configuration list for PBXNativeTarget "FormFillr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129AF3B21C17C2C0037B325 /* Debug */,
+				4129AF3C21C17C2C0037B325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4129AF3D21C17C2C0037B325 /* Build configuration list for PBXNativeTarget "FormFillrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4129AF3E21C17C2C0037B325 /* Debug */,
+				4129AF3F21C17C2C0037B325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4129AEF921C17C2A0037B325 /* Project object */;
+}

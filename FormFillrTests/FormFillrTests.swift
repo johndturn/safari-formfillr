@@ -1,15 +1,15 @@
 //
-//  FormFillerTests.swift
-//  FormFillerTests
+//  FormFillrTests.swift
+//  FormFillrTests
 //
-//  Created by John Turner on 12/10/18.
+//  Created by John Turner on 12/12/18.
 //  Copyright © 2018 John Turner. All rights reserved.
 //
 
 import XCTest
-@testable import FormFiller
+@testable import FormFillr
 
-class FormFillerTests: XCTestCase {
+class FormFillrTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

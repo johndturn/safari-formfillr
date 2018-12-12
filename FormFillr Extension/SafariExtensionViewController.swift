@@ -1,8 +1,8 @@
 //
 //  SafariExtensionViewController.swift
-//  FormFiller Extension
+//  FormFillr Extension
 //
-//  Created by John Turner on 12/10/18.
+//  Created by John Turner on 12/12/18.
 //  Copyright © 2018 John Turner. All rights reserved.
 //
 
